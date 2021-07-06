@@ -1,9 +1,13 @@
+ @Library('automationDevOps')_
+
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('testing shared lib') {
       steps {
         echo 'I am here'
+        sugar 'Yonathan'
+
       }
     }
 
