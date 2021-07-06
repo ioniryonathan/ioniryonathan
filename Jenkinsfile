@@ -6,7 +6,7 @@ pipeline {
     stage('testing shared lib') {
       steps {
         echo 'I am here'
-        sugar 'Yonathan'
+        sayHello 'Yonathan'
 
       }
     }
