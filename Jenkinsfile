@@ -1,4 +1,4 @@
- @Library('automationDevOps')_
+ @Library('automationDevOps@master')_
 
 pipeline {
   agent any
